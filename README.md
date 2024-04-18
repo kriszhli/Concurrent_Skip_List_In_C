@@ -1,4 +1,7 @@
 # Parallel_Skip_List_In_C
+
+[IMPORTANT: Current implementation of insert is invalid, fixing now...]
+
 Explore the lock-based synchronization mechanism in the implementation of a parallel skip list data structure
 
 To use the provided test file:
