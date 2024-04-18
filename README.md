@@ -12,16 +12,16 @@ To use the library in your own file:
 3. gcc-12.2 -o [your_filename] [your_filename.c] skiplist.c -fopenmp
 4. ./[your_filename]
 
-Functions (check skiplist.c for definitions):
-Skiplist* skiplist_init();
-bool Search(Skiplist* sl, int num);
-void Insert(Skiplist* sl, int num);
-bool Delete(Skiplist* sl, int num);
-void CGL_Insert(Skiplist* sl, int num);
-bool CGL_Delete(Skiplist* sl, int num);
-FGL_Skiplist* fgl_skiplist_init();
-bool FGL_Search(FGL_Skiplist* sl, int num);
-void FGL_Insert(FGL_Skiplist* sl, int num);
-bool FGL_Delete(FGL_Skiplist* sl, int num);
-void skiplistFree(Skiplist* sl);
+Functions (check skiplist.c for definitions): 
+Skiplist* skiplist_init(); 
+bool Search(Skiplist* sl, int num); 
+void Insert(Skiplist* sl, int num); 
+bool Delete(Skiplist* sl, int num); 
+void CGL_Insert(Skiplist* sl, int num); 
+bool CGL_Delete(Skiplist* sl, int num); 
+FGL_Skiplist* fgl_skiplist_init(); 
+bool FGL_Search(FGL_Skiplist* sl, int num); 
+void FGL_Insert(FGL_Skiplist* sl, int num); 
+bool FGL_Delete(FGL_Skiplist* sl, int num); 
+void skiplistFree(Skiplist* sl); 
 void FGL_skiplistFree(FGL_Skiplist* sl);
