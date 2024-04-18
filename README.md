@@ -1,8 +1,8 @@
-# Parallel_Skip_List_In_C
-
-[IMPORTANT: Current implementation of insert is invalid, fixing now...]
+# Concurrent_Skip_List_In_C
 
 Explore the lock-based synchronization mechanism in the implementation of a parallel skip list data structure
+
+[IMPORTANT: Current implementation of insert is invalid, fixing now...]
 
 To use the provided test file:
 1. Compiler:        module load gcc-12.2
@@ -15,9 +15,10 @@ To use the library in your own file:
 3. gcc-12.2 -o [your_filename] [your_filename.c] skiplist.c -fopenmp
 4. ./[your_filename]
 
-Functions (check skiplist.c for definitions): 
-Skiplist* skiplist_init(); 
-bool Search(Skiplist* sl, int num); 
+Functions (check skiplist.c for definitions):
+
+Skiplist* skiplist_init() 
+bool Search(Skiplist* sl, int num) 
 void Insert(Skiplist* sl, int num); 
 bool Delete(Skiplist* sl, int num); 
 void CGL_Insert(Skiplist* sl, int num); 
